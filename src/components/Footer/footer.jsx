@@ -1,6 +1,6 @@
 import React from 'react'
 
-const Work = () => {
+const footer = () => {
   return (
     <div>
       
@@ -8,4 +8,4 @@ const Work = () => {
   )
 }
 
-export default Work
+export default footer
