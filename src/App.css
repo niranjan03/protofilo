@@ -1,0 +1,11 @@
+
+a{
+    color: rgb(174, 175, 179);
+}
+.body{
+    font-size: 18px;
+    font-weight: 400;
+    background-color: var(--bg-color);
+    color: rgb(174, 175, 179);
+    text-decoration: none !important; 
+}
