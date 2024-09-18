@@ -44,7 +44,7 @@ export const socialmedia =[
     {
         name: 'GitHub',
         icon: <FontAwesomeIcon icon={faGithub} />,
-        link: '',
+        link: 'https://github.com/niranjan03',
     }
 ]
 

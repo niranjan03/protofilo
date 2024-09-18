@@ -5,6 +5,8 @@ import { Link } from 'react-router-dom'
 import '../../assests/css/main.css'
 
 const footer = () => {
+  const d = new Date();
+  const year = d.getFullYear();
   return (
     <div  className="footer">
 
@@ -37,7 +39,7 @@ const footer = () => {
                 socialmedia.map((item, index) => {
                   return (
                     <li key={index} className='footer-link'>
-                      <Link href={item.link} className='social-media' target="_blank" rel="noopener noreferrer">{item.icon}
+                      <Link to={item.link} className='social-media' target="_blank" rel="noopener noreferrer">{item.icon}
                       <p>{item.name}</p></Link>
                     </li>
                   )
@@ -47,7 +49,10 @@ const footer = () => {
           </div>
         </div>
         <div className='copyright'>
-          <p></p>
+          <div><hr />
+          </div>
+          <p> ©<span>{year}</span> Prolific, Inc.
+          All rights reserved.</p>
         </div>
       </div>
     </div>
