@@ -47,12 +47,15 @@ h1, h2, h3, h4, h5, h6{
     padding: 10px 20px;
     margin: 5px;
     width:  -webkit-fill-available;
-    height: 25vh;
-    position: fixed;
+    height: 20vh;
+    position: sticky;
+    border-radius: 2rem;
     display: flex;
     gap: 20px;
     align-items: center;
-    border-radius: 2rem;
+    
+    z-index: 1;
+    background-color: var(--bg-color);
 }
 .navbar .logo{
     padding: 0 20px;
@@ -72,8 +75,6 @@ h1, h2, h3, h4, h5, h6{
     padding: 10px 20px;
 }
 
-
-
 /* Footer */
 .footer{
     margin: auto;
@@ -92,7 +93,6 @@ h1, h2, h3, h4, h5, h6{
 }
 .footer-social ul, .footer-link ul{
     list-style: none;
-    
 }
 
 .footer-link, .footer-social{
@@ -117,14 +117,43 @@ h1, h2, h3, h4, h5, h6{
     padding: 0 10px;
     font-size: 18px;
     margin: auto;
-
 }
-
 
 /* Banner */
 .banner-section{
-    height: 80vh;
+    height: 90vh;
     width: 100%;
     background-color: var(--bg-color);
+    position: relative;
+    z-index: 2;
+    
+}
+.banner-section .title-desc{
+    color: var(--font-color);
+    font-size: 18px;
+    padding: 40px 40px;
+}
+
+
+
+/* Skills */
+.skill{
+    position: absolute;
+    margin: 0px;
+    padding: 20px 40px;
+    width: -webkit-fill-available;
+    
+
+}
+.section-skill{
+    display: flex;
+    justify-items: center;
+    justify-content: center;
+}
+.section-skill .skill-img{
+    width: 100px;
+    height: auto; 
+    padding: 5px 10px; 
+    object-fit: contain;
     
 }
