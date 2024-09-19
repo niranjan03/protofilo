@@ -139,64 +139,9 @@ h1, h2, h3, h4, h5, h6{
 
   
 .banner-section .container {
-    display: flex;
-    flex-direction: column;
     align-items: center;
     text-align: center;
-    padding: 2rem;
-  }
-  
-  .image-container {
-    margin-bottom: 2rem;
-  }
-  
-  .image-container img {
-    border-radius: 50%;
-    width: 150px;
-    height: 150px;
-    object-fit: cover;
-  }
-  
-  .intro {
-    font-size: 1rem;
-    margin-bottom: 0.5rem;
-  }
-  
-  .title {
-    font-size: 1.2rem;
-    margin-bottom: 1rem;
-  }
-  
-  .heading {
-    font-size: 2.5rem;
-    font-weight: bold;
-    margin-bottom: 0.5rem;
-  }
-  
-  .subheading {
-    font-size: 1.5rem;
-    margin-bottom: 1rem;
-  }
-  
-  .highlight {
-    color: #9013fe;
-    font-weight: bold;
-  }
-  
-  .subtitle {
-    font-size: 1rem;
-    margin-bottom: 2rem;
-  }
-  
-  .main-heading {
-    font-size: 2rem;
-    font-weight: bold;
-    margin-bottom: 1rem;
-  }
-
-  .description a {
-    color: #9013fe;
-    text-decoration: none;
+    padding: 1rem;
   }
 
 
@@ -242,8 +187,26 @@ h1, h2, h3, h4, h5, h6{
 }
 .project-description p{
     font-size: 18px;
-    padding: 10px;
-    box-shadow: inset gray 60px 60px 60px 60px;
-
+    padding: 20px 10px;
+    color: var(--font-color);
+    -webkit-box-shadow: inset 0 0 1px 0 #131212;
+-moz-box-shadow: inset 0 0 1px 0 #dddddd;
+box-shadow: inset 0 0 1px 0 #dddddd;
+}
+.iframe-container::after{
+    content: "";
+    width: 100%;
+		height: 100%;
+		z-index: 1;
+		position: absolute;
+		top: 50%; 
+		left: 0;
+		bottom: 0;
+		right: 0;
+		background: radial-gradient(50vw 60vw at 50% 70%, rgba(255, 255, 255, 0.08) 0%, rgba(255, 255, 255, 0) 60%), 
+					radial-gradient(35% 15% at 50% 85%, rgba(255, 255, 255, 0.09) 0%, rgba(255, 255, 255, 0) 100%);
+}
+iframe {
+    border-radius: 2rem;
 }
 
