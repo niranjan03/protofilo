@@ -8,7 +8,7 @@ const skill = () => {
             {
                 skills.map((skill,index)=>{
                     return (
-                        <div key={index} className=''>
+                        <div key={index} className='skill-bar'>
                             <img src={skill.icon} className='skill-img' alt={skill.alt} />
                             <h2 className='skill-name'>{skill.name}</h2>
                         </div>

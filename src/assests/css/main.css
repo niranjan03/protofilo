@@ -121,11 +121,14 @@ h1, h2, h3, h4, h5, h6{
 
 /* Banner */
 .banner-section{
-    height: 90vh;
+    min-height: 100vh;
     width: 100%;
     background-color: var(--bg-color);
     position: relative;
     z-index: 2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     
 }
 .banner-section .title-desc{
@@ -134,21 +137,86 @@ h1, h2, h3, h4, h5, h6{
     padding: 40px 40px;
 }
 
+  
+.banner-section .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 2rem;
+  }
+  
+  .image-container {
+    margin-bottom: 2rem;
+  }
+  
+  .image-container img {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+  }
+  
+  .intro {
+    font-size: 1rem;
+    margin-bottom: 0.5rem;
+  }
+  
+  .title {
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+  }
+  
+  .heading {
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+  }
+  
+  .subheading {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+  }
+  
+  .highlight {
+    color: #9013fe;
+    font-weight: bold;
+  }
+  
+  .subtitle {
+    font-size: 1rem;
+    margin-bottom: 2rem;
+  }
+  
+  .main-heading {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+  }
+
+  .description a {
+    color: #9013fe;
+    text-decoration: none;
+  }
 
 
 /* Skills */
 .skill{
     position: absolute;
-    margin: 0px;
+    margin: auto;
     padding: 20px 40px;
     width: -webkit-fill-available;
-    
+    z-index: 2;
+    margin: auto;
 
 }
 .section-skill{
     display: flex;
     justify-items: center;
     justify-content: center;
+}
+.skill-bar{
+    padding: 10px 20px;
 }
 .section-skill .skill-img{
     width: 100px;
@@ -157,3 +225,25 @@ h1, h2, h3, h4, h5, h6{
     object-fit: contain;
     
 }
+.section-skill .skill-name{
+    text-align: center;
+    font-size: 16px;
+}
+
+
+
+/* project */
+.project{
+    position: relative;
+    margin: 200px 0px;
+    width: 100%;
+    padding: 60px 40px;
+
+}
+.project-description p{
+    font-size: 18px;
+    padding: 10px;
+    box-shadow: inset gray 60px 60px 60px 60px;
+
+}
+
