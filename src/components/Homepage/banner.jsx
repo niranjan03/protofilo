@@ -1,5 +1,6 @@
 import React from 'react'
 import '../../assests/css/main.css'
+import user from '../../assests/image/img/user.png'
 
 const banner = () => {
   return (
@@ -15,7 +16,7 @@ const banner = () => {
             </div>
             <div className="col-md-6 col-lg-6 col-sm-12 ">
                 <div className="banner-img">
-                    <img src="" alt="" />
+                    <img src={user} alt="" />
                 </div>
             </div>
         </div>
