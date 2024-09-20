@@ -4,12 +4,13 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import {faLinkedin, faGithub, faXTwitter, faSquareInstagram} from '@fortawesome/free-brands-svg-icons'
 
 
-import htmlicon from '../../src/assests/image/logo/html-5.png'
-import cssicon from '../../src/assests/image/logo/css.png'
-import javascripticon from '../../src/assests/image/logo/js.png'
-import reacticon from '../../src/assests/image/logo/science.png'
-import giticon from '../../src/assests/image/logo/social.png'
-import bootstrapicon from '../../src/assests/image/logo/bootstrap.png'
+import htmlicon from '../assests/image/logo/html-5.png'
+import cssicon from '../assests/image/logo/css.png'
+import javascripticon from '../assests/image/logo/js.png'
+import reacticon from '../assests/image/logo/science.png'
+import giticon from '../assests/image/logo/social.png'
+import bootstrapicon from '../assests/image/logo/bootstrap.png'
+import mongodbicon from '../assests/image/logo/mongodb.svg'
 
 export const navbardata = [
     {
@@ -112,4 +113,9 @@ export const skills =[
         icon:  reacticon,
         alt: 'react',
     },
+    {
+        name: 'MongoDB',
+        icon: mongodbicon,
+        alt: 'mongodb',
+    }
 ]

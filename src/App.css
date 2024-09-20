@@ -9,3 +9,7 @@ a{
     color: rgb(174, 175, 179);
     text-decoration: none !important; 
 }
+.app{
+    min-height: 100vh;
+    background-color: var(--bg-color) !important;
+}

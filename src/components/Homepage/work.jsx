@@ -2,18 +2,23 @@ import React from 'react';
 
 const work = () => {
   return (
-    <div className='project'>
+    <div className='project bg-image'>
         <div className='container '>
+            <div className='row'>
+            <div class="col-md-6 offset-md-3">
+                <h4>Projects</h4>
+                <span></span>
+            </div>
+            </div>
         <div className='row'>
               <div className='col-6'>
                   <div className="project-description">
-                      <h1>Project</h1>
+                      <h1>New Jyoti Decor</h1>
                       <p>
-                          A web app for visualizing personalized Spotify data. View your top
-                          artists, top tracks, recently played tracks, and detailed audio
-                          information about each track. Create and save new playlists of
-                          recommended tracks based on your existing playlists and more.
+                      "New Jyoti Decor" is a website designed to showcase a wide range of window blinds. The site aims to provide users with a seamless browsing experience, highlighting the decor options and features of the blinds. The project involved creating a fully responsive, fast-loading website optimized for both desktop and mobile users.
                       </p>
+                      <p><span>Role: </span>
+                      Full-stack Developer – responsible for designing the front-end, ensuring mobile responsiveness, and integrating hosting and domain management.</p>
                   </div>
               </div>
               <div className='col-6'>
