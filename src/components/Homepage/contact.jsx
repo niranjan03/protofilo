@@ -7,7 +7,7 @@ const contact = () => {
     <div className='contact-section'>
       <div className="container">
         <div className="row">
-        <div class="col-md-8 offset-md-2">
+        <div class="offset-md-2 col-md-8 offset-md-2">
         <div className='heading'>
           <h4 className='title'>Contact</h4>
           <p >I'm currently looking to join a cross-functional team that values improving people's lives through accessible design. or have a project in mind? Let's connect.</p>

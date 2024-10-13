@@ -26,6 +26,9 @@ Main CSS
     --font-family: "Source Code Pro", monospace;
 }
 
+p, span{
+    color: var(--font-color);
+}
 a{
     text-decoration: none;
     color: rgb(174, 175, 179);
@@ -230,3 +233,15 @@ iframe {
     border-radius: 2rem;
 }
 
+
+/* Contact */
+.contact-section{
+    color: var(--font-color);
+}
+
+.contact-link{
+    list-style: none;
+    display: flex;
+    gap: 10px;
+    font-size: 20px;
+}

@@ -9,7 +9,7 @@ const banner = () => {
         <div className="row ">
             <div className="col-md-6 col-lg-6 col-sm-12 ">
                 <div className="banner-content">
-                    <h2 className="text-white">Hello, I am Niranjan Maurya</h2>
+                    <h2 className="">Hello, I am Niranjan Maurya</h2>
                     <span>I am Front-End Developer</span>
 
                 </div>
