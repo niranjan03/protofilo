@@ -11,6 +11,10 @@ import reacticon from '../assests/image/logo/science.png'
 import giticon from '../assests/image/logo/social.png'
 import bootstrapicon from '../assests/image/logo/bootstrap.png'
 import mongodbicon from '../assests/image/logo/mongodb.svg'
+import GitHubicon from '../assests/image/logo/github.png'
+import pythonicon from '../assests/image/logo/python.png'
+import tailwindicon from '../assests/image/logo/tailwind-css.png'
+
 
 export const navbardata = [
     {
@@ -104,14 +108,29 @@ export const skills =[
         alt: 'bootstrap',
     },
     {
+        name: 'TailWind CSS',
+        icon: tailwindicon,
+        alt: 'TailWind CSS'
+    },
+    {
         name: 'Git',
         icon: giticon,
         alt: 'git',
     },
     {
+        name: 'GitHub',
+        icon: GitHubicon,
+        alt: 'GitHub',
+    },
+    {
         name: 'React',
         icon:  reacticon,
         alt: 'react',
+    },
+    {
+        name: 'Python',
+        icon:  pythonicon,
+        alt: 'Python',
     },
     {
         name: 'MongoDB',
