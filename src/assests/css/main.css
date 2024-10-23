@@ -148,12 +148,13 @@ h1, h2, h3, h4, h5, h6{
   
 .banner-section .container {
     align-items: center;
-    text-align: center;
+    text-align: justify;
     padding: 1rem;
+    line-height: inherit;
 }
 
 .banner-content{
-    padding: 40px;
+    padding: 20px 10px;
 }
 
 .banner-img img{
@@ -162,6 +163,55 @@ h1, h2, h3, h4, h5, h6{
     width: 100%;
     object-fit: contain;
     justify-self: center;
+}
+.Resume-view{
+    padding: 10px;
+    border-radius: 1rem;
+    background: transparent;
+    color: var(--font-color);
+    border: 2px solid var(--font-color);
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.animation {
+  height:50px;
+  overflow:hidden;
+  margin-left: 1rem;
+}
+
+.animation > div > p {
+  padding: 0.25rem 0.75rem;
+  height:2.81rem;
+  margin-bottom: 2.81rem;
+  display:inline-block;
+}
+
+.animation div:first-child {
+  animation: text-animation 8s infinite;
+}
+
+.first  p {
+  background-color:#20a7d8;
+}
+.second p {
+  background-color:#CD921E;
+}
+.third p {
+  background-color:#c10528;
+}
+
+@keyframes text-animation {
+  0% {margin-top: 0;}
+  10% {margin-top: 0;}
+  20% {margin-top: -5.62rem;}
+  30% {margin-top: -5.62rem;}
+  40% {margin-top: -11.24rem;}
+  60% {margin-top: -11.24rem;}
+  70% {margin-top: -5.62rem;}
+  80% {margin-top: -5.62rem;}
+  90% {margin-top: 0;}
+  100% {margin-top: 0;}
 }
 
 
