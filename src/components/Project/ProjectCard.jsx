@@ -4,7 +4,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faGithub} from '@fortawesome/free-brands-svg-icons'
 import { faEye } from '@fortawesome/free-solid-svg-icons'
 
-const Projectcard = ({imgurl, title, description, giturl, previewurl}) => {
+const ProjectCard = ({imgurl, title, description, giturl, previewurl}) => {
   return (
     <div>
         <div className='' style={{background:`url(${imgurl})`, backgroundSize:'cover'}}>
@@ -25,4 +25,4 @@ const Projectcard = ({imgurl, title, description, giturl, previewurl}) => {
   )
 }
 
-export default Projectcard
+export default ProjectCard;
