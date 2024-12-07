@@ -321,7 +321,7 @@ h1, h2, h3, h4, h5, h6{
     padding: 60px 40px;
 
 }
-/* styles.css */
+
 .card {
     position: relative;
     overflow: hidden; /* Ensures logos stay within card boundaries */
@@ -329,25 +329,40 @@ h1, h2, h3, h4, h5, h6{
 
 .logos {
     position: absolute;
-    bottom: 10px; /* Adjust position as needed */
-    left: 10px; /* Adjust position as needed */
-    display: flex;
-    gap: 10px; /* Space between logos */
+    bottom: 50%; /* Adjust position as needed */
+    left: 50%; 
+    gap: 20px; /* Space between logos */
     opacity: 0; /* Initially hidden */
-    transition: opacity 0.3s ease; /* Smooth transition */
+    transition: opacity 0.3s ease;
+    align-self: center;
+    align-content: center;
+    font-size: 30px; /* Smooth transition */
+}
+.image-container {
+    position: relative;
+    display: inline-block; /* or block depending on your layout */
 }
 
-.card:hover .logos {
-    opacity: 1; /* Show logos on hover */
+.card-img {
+    transition: transform 0.3s ease;
+}
+.image-container:hover .logos {
+    opacity: 1; /* Show icons on hover */
 }
 
-.logo {
-    width: 30px; /* Adjust size of logos */
-    height: 30px; /* Adjust size of logos */
-    filter: invert(1); /* Optional: invert color for visibility */
+.icon-background {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5); /* Transparent black background */
+    opacity: 0; /* Hide background by default */
+    transition: opacity 0.3s; /* Smooth transition */
 }
-
-
+.image-container:hover .icon-background {
+    opacity: 1; /* Show background on hover */
+}
 
 
 /* Contact */

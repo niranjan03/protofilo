@@ -39,6 +39,7 @@ const banner = () => {
                 expertise and contribute to innovative web solutions.</p>
               <div className="download">
                 <button className="Resume-view" onClick={() => handleClick()}>Resume</button>
+                
               </div>
             </div>
           </div>
