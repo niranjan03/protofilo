@@ -24,7 +24,7 @@ const banner = () => {
                   2000, // Waits 2s
                   'React Js Developer', // Types 'Three' without deleting 'Two'
                   () => {
-                    console.log('Sequence completed');
+                    // console.log('Sequence completed');
                   },
                 ]}
                 wrapper="span"
